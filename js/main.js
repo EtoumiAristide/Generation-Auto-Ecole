@@ -16,7 +16,7 @@
     --------------------*/
     $(window).on('load', function () {
         $(".loader").fadeOut();
-        $("#preloder").delay(5).fadeOut("slow");
+        $("#preloder").delay(200).fadeOut("slow");
 
         /*------------------
             Car filter
